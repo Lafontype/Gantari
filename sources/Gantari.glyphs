@@ -57,12 +57,18 @@ date = "2022-05-13 13:45:33 +0000";
 familyName = Gantari;
 featurePrefixes = (
 {
-code = "languagesystem latn dflt;
+automatic = 1;
+code = "languagesystem DFLT dflt;
 
-
-
-
-
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 }
@@ -491,7 +497,7 @@ value = 976;
 },
 {
 name = winDescent;
-value = 268;
+value = 261;
 },
 {
 name = underlineThickness;
@@ -572,7 +578,7 @@ value = 976;
 },
 {
 name = winDescent;
-value = 268;
+value = 261;
 },
 {
 name = underlineThickness;
@@ -658,7 +664,7 @@ value = 976;
 },
 {
 name = winDescent;
-value = 268;
+value = 261;
 },
 {
 name = underlineThickness;
@@ -743,7 +749,7 @@ value = 976;
 },
 {
 name = winDescent;
-value = 268;
+value = 261;
 },
 {
 name = underlineThickness;
@@ -829,7 +835,7 @@ value = 976;
 },
 {
 name = winDescent;
-value = 268;
+value = 261;
 },
 {
 name = underlineThickness;
@@ -915,7 +921,7 @@ value = 976;
 },
 {
 name = winDescent;
-value = 268;
+value = 261;
 },
 {
 name = underlineThickness;
@@ -1001,7 +1007,7 @@ value = 976;
 },
 {
 name = winDescent;
-value = 268;
+value = 261;
 },
 {
 name = underlineThickness;
@@ -141808,6 +141814,7 @@ kerningLTR = {
 "@MMK_R__A1" = -110;
 };
 "@MMK_L__A" = {
+"@MMK_R_V" = -90;
 "@MMK_R__C1" = -40;
 "@MMK_R__J1" = 10;
 "@MMK_R__S" = -10;
@@ -141826,7 +141833,6 @@ kerningLTR = {
 "@MMK_R__w" = -40;
 asterisk = -80;
 f = -30;
-"@MMK_R_V" = -90;
 };
 "@MMK_L__C" = {
 "@MMK_R__C1" = -40;
@@ -142057,6 +142063,9 @@ x = -10;
 "@MMK_L__z" = {
 "@MMK_R__c1" = -20;
 };
+"@MMK_L_caron" = {
+"@MMK_R__h" = 60;
+};
 B = {
 "@MMK_R__A1" = -30;
 "@MMK_R__T" = -50;
@@ -142147,9 +142156,6 @@ x = {
 zero = {
 three = -30;
 two = -20;
-};
-"@MMK_L_caron" = {
-"@MMK_R__h" = 60;
 };
 };
 "5AACEF06-708C-4913-83FC-D570AD12060A" = {
