@@ -10,7 +10,7 @@
       - name: Weight
         tag: wght
         values:
-          - name: Thin
+        - name: Thin
           value: 100  
         - name: ExtraLight
           value: 200        

@@ -50,10 +50,15 @@ value = 1;
 name = "Axis Mappings";
 value = {
 wght = {
-400 = 96;
-500 = 108;
-600 = 123;
-700 = 140;
+100 = 100;
+200 = 200;
+300 = 300;
+400 = 400;
+500 = 500;
+600 = 625;
+700 = 720;
+800 = 820;
+900 = 900;
 };
 };
 }
@@ -403,12 +408,12 @@ tag = sups;
 fontMaster = (
 {
 axesValues = (
-200
+100
 );
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 950;
 },
 {
 name = typoDescender;
@@ -416,15 +421,27 @@ value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 976;
 },
 {
 name = winDescent;
-value = 252;
+value = 568;
 },
 {
 name = underlineThickness;
@@ -441,80 +458,6 @@ value = 244;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
-name = hheaAscender;
-value = 918;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = hheaLineGap;
-value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 28";
-width = 28;
-},
-{
-horizontal = 1;
-name = "Y: 26";
-width = 26;
-},
-{
-horizontal = 1;
-name = "Y: 30";
-width = 30;
-},
-{
-horizontal = 1;
-name = "Y: 44";
-width = 44;
-},
-{
-horizontal = 0;
-name = "X: 32";
-width = 32;
-}
-);
 }
 );
 iconName = Light;
@@ -551,7 +494,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 950;
 },
 {
 name = typoDescender;
@@ -559,15 +502,27 @@ value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 976;
 },
 {
 name = winDescent;
-value = 252;
+value = 568;
 },
 {
 name = underlineThickness;
@@ -584,80 +539,6 @@ value = 244;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
-name = hheaAscender;
-value = 918;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = hheaLineGap;
-value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 49";
-width = 49;
-},
-{
-horizontal = 1;
-name = "Y: 40";
-width = 40;
-},
-{
-horizontal = 1;
-name = "Y: 53";
-width = 53;
-},
-{
-horizontal = 0;
-name = "X: 59";
-width = 59;
-},
-{
-horizontal = 0;
-name = "X: 70";
-width = 70;
-}
-);
 }
 );
 guides = (
@@ -699,7 +580,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 950;
 },
 {
 name = typoDescender;
@@ -707,15 +588,27 @@ value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 976;
 },
 {
 name = winDescent;
-value = 252;
+value = 568;
 },
 {
 name = underlineThickness;
@@ -732,85 +625,6 @@ value = 244;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
-name = hheaAscender;
-value = 918;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = hheaLineGap;
-value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 71";
-width = 71;
-},
-{
-horizontal = 1;
-name = "Y: 55";
-width = 55;
-},
-{
-horizontal = 1;
-name = "Y: 76";
-width = 76;
-},
-{
-horizontal = 0;
-name = "X: 81";
-width = 81;
-},
-{
-horizontal = 0;
-name = "X: 68";
-width = 68;
-},
-{
-horizontal = 0;
-name = "X: 88";
-width = 88;
-}
-);
 }
 );
 guides = (
@@ -851,7 +665,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 950;
 },
 {
 name = typoDescender;
@@ -859,15 +673,27 @@ value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 976;
 },
 {
 name = winDescent;
-value = 252;
+value = 568;
 },
 {
 name = underlineThickness;
@@ -884,95 +710,11 @@ value = 244;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
-name = hheaAscender;
-value = 918;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = hheaLineGap;
-value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 94";
-width = 94;
-},
-{
-horizontal = 1;
-name = "Y: 70";
-width = 70;
-},
-{
-horizontal = 1;
-name = "Y: 101";
-width = 101;
-},
-{
-horizontal = 1;
-name = "Y: 153";
-width = 153;
-},
-{
-horizontal = 0;
-name = "X: 108";
-width = 108;
-},
-{
-horizontal = 0;
-name = "X: 98";
-width = 98;
-},
-{
-horizontal = 0;
-name = "X: 117";
-width = 117;
-}
-);
 }
 );
 guides = (
 {
-pos = (0,300);
+pos = (205,408);
 }
 );
 iconName = SemiBold;
@@ -1009,7 +751,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 950;
 },
 {
 name = typoDescender;
@@ -1017,15 +759,27 @@ value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 976;
 },
 {
 name = winDescent;
-value = 252;
+value = 568;
 },
 {
 name = underlineThickness;
@@ -1042,80 +796,6 @@ value = 244;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
-name = hheaAscender;
-value = 918;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = hheaLineGap;
-value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 115";
-width = 115;
-},
-{
-horizontal = 1;
-name = "Y: 123";
-width = 123;
-},
-{
-horizontal = 1;
-name = "Y: 156";
-width = 156;
-},
-{
-horizontal = 0;
-name = "X: 136";
-width = 136;
-},
-{
-horizontal = 0;
-name = "X: 103";
-width = 103;
-}
-);
 }
 );
 guides = (
@@ -1157,7 +837,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 950;
 },
 {
 name = typoDescender;
@@ -1165,15 +845,27 @@ value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 976;
 },
 {
 name = winDescent;
-value = 252;
+value = 568;
 },
 {
 name = underlineThickness;
@@ -1190,85 +882,11 @@ value = 244;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
-name = hheaAscender;
-value = 918;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = hheaLineGap;
-value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 136";
-width = 136;
-},
-{
-horizontal = 1;
-name = "Y: 98";
-width = 98;
-},
-{
-horizontal = 1;
-name = "Y: 159";
-width = 159;
-},
-{
-horizontal = 0;
-name = "X: 158";
-width = 158;
-},
-{
-horizontal = 0;
-name = "X: 169";
-width = 169;
-}
-);
 }
 );
 guides = (
 {
-pos = (0,300);
+pos = (53,408);
 }
 );
 iconName = Bold;
@@ -1305,7 +923,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 950;
 },
 {
 name = typoDescender;
@@ -1313,15 +931,27 @@ value = -250;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 976;
 },
 {
 name = winDescent;
-value = 252;
+value = 568;
 },
 {
 name = underlineThickness;
@@ -1338,70 +968,6 @@ value = 244;
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
-name = hheaAscender;
-value = 918;
-},
-{
-name = hheaDescender;
-value = -252;
-},
-{
-name = hheaLineGap;
-value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 154";
-width = 154;
-},
-{
-horizontal = 0;
-name = "X: 180";
-width = 180;
-},
-{
-horizontal = 0;
-name = "X: 166";
-width = 166;
-}
-);
 }
 );
 guides = (
@@ -48422,7 +47988,7 @@ unicode = 275;
 {
 color = 4;
 glyphname = eogonek;
-lastChange = "2022-05-19 13:52:14 +0000";
+lastChange = "2022-05-20 08:36:09 +0000";
 layers = (
 {
 anchors = (
@@ -49980,7 +49546,7 @@ unicode = 103;
 {
 color = 9;
 glyphname = gbreve;
-lastChange = "2022-05-19 13:52:27 +0000";
+lastChange = "2022-05-20 08:36:09 +0000";
 layers = (
 {
 layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
@@ -50078,7 +49644,7 @@ unicode = 287;
 {
 color = 9;
 glyphname = gcommaaccent;
-lastChange = "2022-05-19 13:52:52 +0000";
+lastChange = "2022-05-20 08:36:09 +0000";
 layers = (
 {
 layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
@@ -50100,7 +49666,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (304,0);
+pos = (168,0);
 ref = commaturnedabovecomb;
 }
 );
@@ -50177,7 +49743,7 @@ unicode = 291;
 {
 color = 9;
 glyphname = gdotaccent;
-lastChange = "2022-05-19 13:52:27 +0000";
+lastChange = "2022-05-20 08:36:09 +0000";
 layers = (
 {
 layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
@@ -60513,7 +60079,7 @@ color = 10;
 glyphname = ograve;
 kernLeft = _c1;
 kernRight = _b;
-lastChange = "2022-05-20 07:10:52 +0000";
+lastChange = "2022-05-20 07:46:10 +0000";
 layers = (
 {
 background = {
@@ -76213,9 +75779,15 @@ unicode = 380;
 {
 color = 6;
 glyphname = fi;
-lastChange = "2022-05-13 14:28:32 +0000";
+lastChange = "2022-05-20 08:00:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (340,0);
+}
+);
 background = {
 shapes = (
 {
@@ -76336,6 +75908,12 @@ nodes = (
 width = 680;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (289,0);
+}
+);
 background = {
 shapes = (
 {
@@ -76456,6 +76034,12 @@ nodes = (
 width = 578;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (321,0);
+}
+);
 background = {
 shapes = (
 {
@@ -76576,6 +76160,12 @@ nodes = (
 width = 642;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (331,0);
+}
+);
 background = {
 shapes = (
 {
@@ -76696,6 +76286,12 @@ nodes = (
 width = 662;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (299.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -76816,6 +76412,12 @@ nodes = (
 width = 599;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (311,0);
+}
+);
 background = {
 shapes = (
 {
@@ -76936,6 +76538,12 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (279,0);
+}
+);
 background = {
 shapes = (
 {
@@ -77061,9 +76669,15 @@ unicode = 64257;
 {
 color = 6;
 glyphname = fl;
-lastChange = "2022-05-13 14:28:32 +0000";
+lastChange = "2022-05-20 08:00:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (340,0);
+}
+);
 background = {
 shapes = (
 {
@@ -77150,6 +76764,12 @@ nodes = (
 width = 680;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (289,0);
+}
+);
 background = {
 shapes = (
 {
@@ -77236,6 +76856,12 @@ nodes = (
 width = 578;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (321,0);
+}
+);
 background = {
 shapes = (
 {
@@ -77322,6 +76948,12 @@ nodes = (
 width = 642;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (331,0);
+}
+);
 background = {
 shapes = (
 {
@@ -77408,6 +77040,12 @@ nodes = (
 width = 662;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (299.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -77494,6 +77132,12 @@ nodes = (
 width = 599;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (311,0);
+}
+);
 background = {
 shapes = (
 {
@@ -77580,6 +77224,12 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (279,0);
+}
+);
 background = {
 shapes = (
 {
@@ -86449,6 +86099,579 @@ width = 394;
 }
 );
 unicode = 179;
+},
+{
+color = 6;
+glyphname = foursuperior;
+lastChange = "2022-05-20 08:08:44 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(316,402,o),
+(384,454,o),
+(384,530,cs),
+(384,567,o),
+(367,594,o),
+(332,610,c),
+(380,626,o),
+(410,659,o),
+(410,706,cs),
+(410,770,o),
+(353,808,o),
+(272,808,cs),
+(225,808,o),
+(182,795,o),
+(130,762,c),
+(153,678,l),
+(202,705,o),
+(231,712,o),
+(252,712,cs),
+(275,712,o),
+(290,704,o),
+(290,685,cs),
+(290,662,o),
+(272,651,o),
+(243,651,cs),
+(192,651,l),
+(178,571,l),
+(226,571,ls),
+(252,571,o),
+(265,560,o),
+(265,539,cs),
+(265,514,o),
+(249,498,o),
+(217,498,cs),
+(189,498,o),
+(161,507,o),
+(120,532,c),
+(71,458,l),
+(110,421,o),
+(157,402,o),
+(212,402,cs)
+);
+}
+);
+};
+layerId = "19C37293-DF0C-4049-8F1C-5BECA685D590";
+shapes = (
+{
+closed = 1;
+nodes = (
+(303,408,l),
+(303,482,l),
+(350,482,l),
+(350,567,l),
+(303,567,l),
+(303,802,l),
+(197,802,l),
+(19,578,l),
+(19,482,l),
+(196,482,l),
+(196,408,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(196,676,l),
+(196,567,l),
+(110,567,l)
+);
+}
+);
+width = 367;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(318,402,o),
+(386,455,o),
+(386,532,cs),
+(386,567,o),
+(370,593,o),
+(337,610,c),
+(384,627,o),
+(411,658,o),
+(411,705,cs),
+(411,770,o),
+(353,808,o),
+(270,808,cs),
+(223,808,o),
+(178,795,o),
+(125,763,c),
+(148,670,l),
+(199,694,o),
+(228,701,o),
+(247,701,cs),
+(264,701,o),
+(277,695,o),
+(277,680,cs),
+(277,663,o),
+(265,655,o),
+(240,655,cs),
+(187,655,l),
+(171,567,l),
+(222,567,ls),
+(242,567,o),
+(252,559,o),
+(252,542,cs),
+(252,522,o),
+(242,509,o),
+(215,509,cs),
+(190,509,o),
+(162,517,o),
+(119,540,c),
+(65,458,l),
+(106,421,o),
+(158,402,o),
+(210,402,cs)
+);
+}
+);
+};
+layerId = "42F8977D-8264-44FF-8A66-A72BD7D3E619";
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,408,l),
+(304,478,l),
+(351,478,l),
+(351,571,l),
+(304,571,l),
+(304,802,l),
+(185,802,l),
+(13,585,l),
+(13,478,l),
+(185,478,l),
+(185,408,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(185,664,l),
+(185,571,l),
+(113,571,l)
+);
+}
+);
+width = 362;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(313,402,o),
+(377,450,o),
+(377,523,cs),
+(377,566,o),
+(351,595,o),
+(307,610,c),
+(366,623,o),
+(405,661,o),
+(405,712,cs),
+(405,771,o),
+(357,808,o),
+(282,808,cs),
+(237,808,o),
+(198,794,o),
+(155,755,c),
+(172,719,l),
+(215,754,o),
+(243,766,o),
+(278,766,cs),
+(329,766,o),
+(354,747,o),
+(354,708,cs),
+(354,659,o),
+(317,629,o),
+(257,629,cs),
+(215,629,l),
+(208,592,l),
+(246,592,ls),
+(302,592,o),
+(328,567,o),
+(328,524,cs),
+(328,477,o),
+(290,443,o),
+(223,443,cs),
+(183,443,o),
+(155,458,o),
+(124,491,c),
+(97,459,l),
+(126,423,o),
+(163,402,o),
+(222,402,cs)
+);
+}
+);
+};
+layerId = "5AACEF06-708C-4913-83FC-D570AD12060A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(291,408,l),
+(291,503,l),
+(342,503,l),
+(342,544,l),
+(291,544,l),
+(291,802,l),
+(251,802,l),
+(44,547,l),
+(44,503,l),
+(244,503,l),
+(244,408,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(244,733,l),
+(244,544,l),
+(92,544,l)
+);
+}
+);
+width = 388;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(315,402,o),
+(379,450,o),
+(379,525,cs),
+(379,566,o),
+(356,595,o),
+(313,610,c),
+(369,625,o),
+(406,660,o),
+(406,711,cs),
+(406,771,o),
+(356,808,o),
+(280,808,cs),
+(235,808,o),
+(194,794,o),
+(149,757,c),
+(169,707,l),
+(212,740,o),
+(240,753,o),
+(272,753,cs),
+(316,753,o),
+(338,736,o),
+(338,702,cs),
+(338,659,o),
+(306,635,o),
+(254,635,cs),
+(209,635,l),
+(201,587,l),
+(241,587,ls),
+(289,587,o),
+(313,565,o),
+(313,528,cs),
+(313,485,o),
+(279,457,o),
+(222,457,cs),
+(185,457,o),
+(156,472,o),
+(123,503,c),
+(91,459,l),
+(122,423,o),
+(163,402,o),
+(220,402,cs)
+);
+}
+);
+};
+layerId = "80ECBAB3-F383-4124-9E35-EC531BFDEBDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,408,l),
+(295,496,l),
+(345,496,l),
+(345,551,l),
+(295,551,l),
+(295,802,l),
+(239,802,l),
+(39,555,l),
+(39,496,l),
+(233,496,l),
+(233,408,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(233,719,l),
+(233,551,l),
+(98,551,l)
+);
+}
+);
+width = 383;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(316,402,o),
+(383,453,o),
+(383,529,cs),
+(383,568,o),
+(362,595,o),
+(326,610,c),
+(377,626,o),
+(409,660,o),
+(409,708,cs),
+(409,771,o),
+(354,808,o),
+(275,808,cs),
+(228,808,o),
+(187,795,o),
+(136,760,c),
+(158,687,l),
+(205,716,o),
+(234,725,o),
+(259,725,cs),
+(288,725,o),
+(306,713,o),
+(306,690,cs),
+(306,662,o),
+(283,646,o),
+(247,646,cs),
+(197,646,l),
+(185,576,l),
+(231,576,ls),
+(264,576,o),
+(281,562,o),
+(281,535,cs),
+(281,504,o),
+(259,485,o),
+(218,485,cs),
+(187,485,o),
+(160,496,o),
+(121,523,c),
+(77,458,l),
+(114,422,o),
+(159,402,o),
+(215,402,cs)
+);
+}
+);
+};
+layerId = "ED0E349C-8452-4A2C-86CF-88CCE81BCF85";
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,408,l),
+(304,486,l),
+(352,486,l),
+(352,562,l),
+(304,562,l),
+(304,802,l),
+(214,802,l),
+(29,571,l),
+(29,486,l),
+(211,486,l),
+(211,408,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(211,690,l),
+(211,562,l),
+(110,562,l)
+);
+}
+);
+width = 372;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(316,402,o),
+(381,451,o),
+(381,527,cs),
+(381,567,o),
+(361,595,o),
+(320,610,c),
+(373,625,o),
+(407,660,o),
+(407,709,cs),
+(407,770,o),
+(354,808,o),
+(277,808,cs),
+(232,808,o),
+(190,794,o),
+(142,759,c),
+(163,697,l),
+(208,728,o),
+(237,738,o),
+(265,738,cs),
+(302,738,o),
+(321,724,o),
+(321,696,cs),
+(321,661,o),
+(294,641,o),
+(250,641,cs),
+(203,641,l),
+(193,581,l),
+(236,581,ls),
+(276,581,o),
+(296,565,o),
+(296,532,cs),
+(296,496,o),
+(268,472,o),
+(220,472,cs),
+(185,472,o),
+(158,485,o),
+(122,513,c),
+(84,459,l),
+(119,421,o),
+(163,402,o),
+(217,402,cs)
+);
+}
+);
+};
+layerId = "96D04FCA-9746-4118-8F04-D3655F0185C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,408,l),
+(294,491,l),
+(343,491,l),
+(343,557,l),
+(294,557,l),
+(294,802,l),
+(220,802,l),
+(28,563,l),
+(28,491,l),
+(216,491,l),
+(216,408,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(216,704,l),
+(216,557,l),
+(98,557,l)
+);
+}
+);
+width = 377;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(313,402,o),
+(376,449,o),
+(376,521,cs),
+(376,566,o),
+(348,597,o),
+(301,610,c),
+(362,622,o),
+(404,662,o),
+(404,714,cs),
+(404,770,o),
+(357,808,o),
+(285,808,cs),
+(240,808,o),
+(203,793,o),
+(162,754,c),
+(176,731,l),
+(216,767,o),
+(246,780,o),
+(285,780,cs),
+(344,780,o),
+(370,757,o),
+(370,714,cs),
+(370,658,o),
+(329,624,o),
+(261,624,cs),
+(221,624,l),
+(216,598,l),
+(251,598,ls),
+(315,598,o),
+(344,568,o),
+(344,521,cs),
+(344,468,o),
+(300,430,o),
+(225,430,cs),
+(182,430,o),
+(153,445,o),
+(125,480,c),
+(104,459,l),
+(131,424,o),
+(165,402,o),
+(225,402,cs)
+);
+}
+);
+};
+guides = (
+{
+pos = (269,408);
+}
+);
+layerId = "1750929F-40DF-47FF-8B11-7621AD6711F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(289,408,l),
+(289,510,l),
+(341,510,l),
+(341,538,l),
+(289,538,l),
+(289,802,l),
+(265,802,l),
+(51,539,l),
+(51,510,l),
+(257,510,l),
+(257,408,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(257,747,l),
+(257,538,l),
+(88,538,l)
+);
+}
+);
+width = 394;
+}
+);
+unicode = 8308;
 },
 {
 color = 6;
@@ -140467,9 +140690,7 @@ axesValues = (
 100
 );
 instanceInterpolations = {
-"1750929F-40DF-47FF-8B11-7621AD6711F1" = 1.75;
-"5AACEF06-708C-4913-83FC-D570AD12060A" = -0.5;
-"80ECBAB3-F383-4124-9E35-EC531BFDEBDA" = -0.25;
+"1750929F-40DF-47FF-8B11-7621AD6711F1" = 1;
 };
 name = Thin;
 weightClass = 100;
@@ -140479,7 +140700,8 @@ axesValues = (
 200
 );
 instanceInterpolations = {
-"1750929F-40DF-47FF-8B11-7621AD6711F1" = 1;
+"1750929F-40DF-47FF-8B11-7621AD6711F1" = 0.5;
+"5AACEF06-708C-4913-83FC-D570AD12060A" = 0.5;
 };
 name = ExtraLight;
 weightClass = 200;
@@ -140516,30 +140738,34 @@ weightClass = 500;
 },
 {
 axesValues = (
-600
+625
 );
 instanceInterpolations = {
-"96D04FCA-9746-4118-8F04-D3655F0185C2" = 1;
+"96D04FCA-9746-4118-8F04-D3655F0185C2" = 0.75;
+"ED0E349C-8452-4A2C-86CF-88CCE81BCF85" = 0.25;
 };
 name = SemiBold;
 weightClass = 600;
 },
 {
 axesValues = (
-700
+720
 );
 instanceInterpolations = {
-"ED0E349C-8452-4A2C-86CF-88CCE81BCF85" = 1;
+"19C37293-DF0C-4049-8F1C-5BECA685D590" = 0.2;
+"ED0E349C-8452-4A2C-86CF-88CCE81BCF85" = 0.8;
 };
+isBold = 1;
 name = Bold;
 weightClass = 700;
 },
 {
 axesValues = (
-800
+820
 );
 instanceInterpolations = {
-"19C37293-DF0C-4049-8F1C-5BECA685D590" = 1;
+"19C37293-DF0C-4049-8F1C-5BECA685D590" = 0.8;
+"42F8977D-8264-44FF-8A66-A72BD7D3E619" = 0.2;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -142991,7 +143217,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2021 The Gantari Project Authors";
+value = "Copyright 2022 The Gantari Project Authors (https://github.com/Lafontype/Gantari)";
 }
 );
 },
@@ -143024,7 +143250,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = trademarks;
@@ -143034,6 +143260,10 @@ language = dflt;
 value = "Gantari is a trademark of Lafontype.";
 }
 );
+},
+{
+key = manufacturerURL;
+value = "https://www.behance.net/lafontype";
 }
 );
 stems = (
