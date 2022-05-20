@@ -17,6 +17,47 @@ name = Weight;
 tag = wght;
 }
 );
+customParameters = (
+{
+name = openTypeOS2Panose;
+value = (
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Variable Font Origin";
+value = "80ECBAB3-F383-4124-9E35-EC531BFDEBDA";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+400 = 96;
+500 = 108;
+600 = 123;
+700 = 140;
+};
+};
+}
+);
 date = "2022-05-13 13:45:33 +0000";
 familyName = Gantari;
 featurePrefixes = (
@@ -60472,7 +60513,7 @@ color = 10;
 glyphname = ograve;
 kernLeft = _c1;
 kernRight = _b;
-lastChange = "2022-05-19 13:54:34 +0000";
+lastChange = "2022-05-20 07:10:52 +0000";
 layers = (
 {
 background = {
@@ -140423,12 +140464,25 @@ unicode = 731;
 instances = (
 {
 axesValues = (
+100
+);
+instanceInterpolations = {
+"1750929F-40DF-47FF-8B11-7621AD6711F1" = 1.75;
+"5AACEF06-708C-4913-83FC-D570AD12060A" = -0.5;
+"80ECBAB3-F383-4124-9E35-EC531BFDEBDA" = -0.25;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
 200
 );
 instanceInterpolations = {
 "1750929F-40DF-47FF-8B11-7621AD6711F1" = 1;
 };
-name = Thin;
+name = ExtraLight;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -140438,6 +140492,7 @@ instanceInterpolations = {
 "5AACEF06-708C-4913-83FC-D570AD12060A" = 1;
 };
 name = Light;
+weightClass = 300;
 },
 {
 axesValues = (
@@ -140450,12 +140505,24 @@ name = Regular;
 },
 {
 axesValues = (
+500
+);
+instanceInterpolations = {
+"80ECBAB3-F383-4124-9E35-EC531BFDEBDA" = 0.5;
+"96D04FCA-9746-4118-8F04-D3655F0185C2" = 0.5;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
 600
 );
 instanceInterpolations = {
 "96D04FCA-9746-4118-8F04-D3655F0185C2" = 1;
 };
 name = SemiBold;
+weightClass = 600;
 },
 {
 axesValues = (
@@ -140465,6 +140532,7 @@ instanceInterpolations = {
 "ED0E349C-8452-4A2C-86CF-88CCE81BCF85" = 1;
 };
 name = Bold;
+weightClass = 700;
 },
 {
 axesValues = (
@@ -140474,6 +140542,7 @@ instanceInterpolations = {
 "19C37293-DF0C-4049-8F1C-5BECA685D590" = 1;
 };
 name = ExtraBold;
+weightClass = 800;
 },
 {
 axesValues = (
@@ -140483,6 +140552,7 @@ instanceInterpolations = {
 "42F8977D-8264-44FF-8A66-A72BD7D3E619" = 1;
 };
 name = Black;
+weightClass = 900;
 }
 );
 kerningLTR = {

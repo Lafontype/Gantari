@@ -17,6 +17,47 @@ name = Weight;
 tag = wght;
 }
 );
+customParameters = (
+{
+name = openTypeOS2Panose;
+value = (
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Variable Font Origin";
+value = "573A4E99-B1EA-4FCA-90B1-EE1ED57C0074";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+400 = 96;
+500 = 108;
+600 = 123;
+700 = 140;
+};
+};
+}
+);
 date = "2022-05-13 13:45:33 +0000";
 familyName = Gantari;
 featurePrefixes = (
@@ -402,38 +443,6 @@ name = strikeoutSize;
 value = 50;
 },
 {
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
 name = hheaAscender;
 value = 918;
 },
@@ -444,36 +453,6 @@ value = -252;
 {
 name = hheaLineGap;
 value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 28";
-width = 28;
-},
-{
-horizontal = 1;
-name = "Y: 26";
-width = 26;
-},
-{
-horizontal = 1;
-name = "Y: 30";
-width = 30;
-},
-{
-horizontal = 1;
-name = "Y: 44";
-width = 44;
-},
-{
-horizontal = 0;
-name = "X: 32";
-width = 32;
-}
-);
 }
 );
 guides = (
@@ -551,38 +530,6 @@ name = strikeoutSize;
 value = 50;
 },
 {
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
 name = hheaAscender;
 value = 918;
 },
@@ -593,46 +540,6 @@ value = -252;
 {
 name = hheaLineGap;
 value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 49";
-width = 49;
-},
-{
-horizontal = 1;
-name = "Y: 40";
-width = 40;
-},
-{
-horizontal = 1;
-name = "Y: 53";
-width = 53;
-},
-{
-horizontal = 0;
-name = "X: 61";
-width = 61;
-},
-{
-horizontal = 0;
-name = "X: 51";
-width = 51;
-},
-{
-horizontal = 0;
-name = "X: 56";
-width = 56;
-},
-{
-horizontal = 0;
-name = "X: 70";
-width = 70;
-}
-);
 }
 );
 guides = (
@@ -710,38 +617,6 @@ name = strikeoutSize;
 value = 50;
 },
 {
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
 name = hheaAscender;
 value = 918;
 },
@@ -752,41 +627,6 @@ value = -252;
 {
 name = hheaLineGap;
 value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 71";
-width = 71;
-},
-{
-horizontal = 1;
-name = "Y: 55";
-width = 55;
-},
-{
-horizontal = 1;
-name = "Y: 76";
-width = 76;
-},
-{
-horizontal = 0;
-name = "X: 83";
-width = 83;
-},
-{
-horizontal = 0;
-name = "X: 68";
-width = 68;
-},
-{
-horizontal = 0;
-name = "X: 92";
-width = 92;
-}
-);
 }
 );
 guides = (
@@ -863,38 +703,6 @@ name = strikeoutSize;
 value = 50;
 },
 {
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
 name = hheaAscender;
 value = 918;
 },
@@ -905,41 +713,6 @@ value = -252;
 {
 name = hheaLineGap;
 value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 94";
-width = 94;
-},
-{
-horizontal = 1;
-name = "Y: 70";
-width = 70;
-},
-{
-horizontal = 1;
-name = "Y: 101";
-width = 101;
-},
-{
-horizontal = 1;
-name = "Y: 153";
-width = 153;
-},
-{
-horizontal = 0;
-name = "X: 117";
-width = 117;
-},
-{
-horizontal = 0;
-name = "X: 86";
-width = 86;
-}
-);
 }
 );
 guides = (
@@ -1017,38 +790,6 @@ name = strikeoutSize;
 value = 50;
 },
 {
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
 name = hheaAscender;
 value = 918;
 },
@@ -1059,41 +800,6 @@ value = -252;
 {
 name = hheaLineGap;
 value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 115";
-width = 115;
-},
-{
-horizontal = 1;
-name = "Y: 123";
-width = 123;
-},
-{
-horizontal = 1;
-name = "Y: 156";
-width = 156;
-},
-{
-horizontal = 0;
-name = "X: 143";
-width = 143;
-},
-{
-horizontal = 0;
-name = "X: 103";
-width = 103;
-},
-{
-horizontal = 0;
-name = "X: 132";
-width = 132;
-}
-);
 }
 );
 guides = (
@@ -1171,38 +877,6 @@ name = strikeoutSize;
 value = 50;
 },
 {
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
 name = hheaAscender;
 value = 918;
 },
@@ -1213,36 +887,6 @@ value = -252;
 {
 name = hheaLineGap;
 value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 136";
-width = 136;
-},
-{
-horizontal = 1;
-name = "Y: 98";
-width = 98;
-},
-{
-horizontal = 1;
-name = "Y: 159";
-width = 159;
-},
-{
-horizontal = 0;
-name = "X: 169";
-width = 169;
-},
-{
-horizontal = 0;
-name = "X: 151";
-width = 151;
-}
-);
 }
 );
 guides = (
@@ -1320,38 +964,6 @@ name = strikeoutSize;
 value = 50;
 },
 {
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 700;
-},
-{
-name = subscriptYOffset;
-value = 140;
-},
-{
-name = subscriptYSize;
-value = 650;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 700;
-},
-{
-name = superscriptYOffset;
-value = 477;
-},
-{
-name = superscriptYSize;
-value = 650;
-},
-{
 name = hheaAscender;
 value = 918;
 },
@@ -1362,36 +974,6 @@ value = -252;
 {
 name = hheaLineGap;
 value = 200;
-},
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 154";
-width = 154;
-},
-{
-horizontal = 0;
-name = "X: 182";
-width = 182;
-},
-{
-horizontal = 0;
-name = "X: 134";
-width = 134;
-},
-{
-horizontal = 0;
-name = "X: 168";
-width = 168;
-},
-{
-horizontal = 0;
-name = "X: 201";
-width = 201;
-}
-);
 }
 );
 guides = (
@@ -142876,8 +142458,23 @@ axesValues = (
 instanceInterpolations = {
 "EA8306D6-B852-442A-A16D-2D86AE16EEA2" = 1;
 };
+isItalic = 1;
+linkStyle = Thin;
 name = "Thin Italic";
 weightClass = 100;
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+"BA8B9BDD-FBF5-4763-A7AD-14140821EFBD" = 0.5;
+"EA8306D6-B852-442A-A16D-2D86AE16EEA2" = 0.5;
+};
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = 200;
 },
 {
 axesValues = (
@@ -142886,7 +142483,10 @@ axesValues = (
 instanceInterpolations = {
 "BA8B9BDD-FBF5-4763-A7AD-14140821EFBD" = 1;
 };
+isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
+weightClass = 300;
 },
 {
 axesValues = (
@@ -142895,7 +142495,21 @@ axesValues = (
 instanceInterpolations = {
 "573A4E99-B1EA-4FCA-90B1-EE1ED57C0074" = 1;
 };
+isItalic = 1;
 name = Italic;
+},
+{
+axesValues = (
+500
+);
+instanceInterpolations = {
+"573A4E99-B1EA-4FCA-90B1-EE1ED57C0074" = 0.5;
+"ACFE83A5-3FD5-4916-9088-BF4CCAF0E845" = 0.5;
+};
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
+weightClass = 500;
 },
 {
 axesValues = (
@@ -142904,7 +142518,10 @@ axesValues = (
 instanceInterpolations = {
 "ACFE83A5-3FD5-4916-9088-BF4CCAF0E845" = 1;
 };
+isItalic = 1;
+linkStyle = SemiBold;
 name = "SemiBold Italic";
+weightClass = 600;
 },
 {
 axesValues = (
@@ -142913,7 +142530,10 @@ axesValues = (
 instanceInterpolations = {
 "261A487E-1CB1-41FD-8732-BC3F4489D58F" = 1;
 };
+isBold = 1;
+isItalic = 1;
 name = "Bold Italic";
+weightClass = 700;
 },
 {
 axesValues = (
@@ -142922,7 +142542,10 @@ axesValues = (
 instanceInterpolations = {
 "D2242EF2-33C7-49B0-8663-736078BD5B35" = 1;
 };
+isItalic = 1;
+linkStyle = ExtraBold;
 name = "ExtraBold Italic";
+weightClass = 800;
 },
 {
 axesValues = (
@@ -142931,7 +142554,10 @@ axesValues = (
 instanceInterpolations = {
 "EC4B77C1-E739-4B44-9572-0CFE97DCA064" = 1;
 };
+isItalic = 1;
+linkStyle = Black;
 name = "Black Italic";
+weightClass = 900;
 }
 );
 kerningLTR = {
